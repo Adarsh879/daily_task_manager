@@ -4,6 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 enum Priority { low, medium, high }
 
+//Task class
 class Task {
   String? id;
   String title;
